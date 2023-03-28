@@ -1,9 +1,238 @@
 .section-header{
     height: 178px;
     width: 1336px;
-    left: 51.999999999999545px;
-    top: 80px;
-    border-radius: 0px;
-    padding: 0px 52px 0px 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 52px;
+    background-color: rgb(240, 226, 226);
+}
+.header-div{
+    height: 92px;
+    width: 716px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+}
+.header-title1{
+    color: #282828;
+    font-size: 16px;
+    font-family: 'Inter';
+    line-height: 26px;
+}
+.header-title2{
+    color: #282828;
+    font-size: 54px;
+    text-align: center;
+    font-family: 'Inter';
+}
+.header-text1{
+    color: #5F6980;
+    font-size: 20px;
+    font-family: 'Inter';
+    flex-direction: column;
 
 }
+/* end header */
+.cards{
+    height: 908px;
+    width: 1336px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.container1{
+    height: 430px;
+    width: 1336px;
+    display: flex;
+    flex-direction:column;
+    position: ;
+    align-items: flex-start;
+    padding: 0px;
+    background-color: rgb(211, 224, 216);
+}
+.elements1{
+    height: 430px;
+    width: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 0px 16px;
+}
+.img-box{
+    display: block;
+    height: 230px;
+    width: 310px;
+
+}
+.content{
+    height: 168px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 16px;
+    background-color: aliceblue;
+    
+    
+}
+.info{ 
+    height: 108px;
+    width: 278px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 16px;
+}
+.icon{
+    height: 36px;
+    width: 140px;
+    background-color: #fbfcff;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    margin-top: 24px;
+    
+}
+.title-1{
+    color: #282828;
+    font-size: 18px;
+    font-family: 'Inter';
+
+}
+.title-2{
+    font-size: 14px;
+    color: #3E3E59;
+    font-family: 'Inter';
+    
+}
+.p-text{
+    font-size: 14px;
+    color: #5F6980;
+    font-family: 'Inter';
+}
+.insta{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    background-color: #5F6980;
+}
+.facebook{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    background-color: #5F6980;
+
+}
+.tweet{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    background-color: #5F6980;
+    border-radius: 100px;
+
+
+}
+.container1{
+    height: 430px;
+    width: 1336px;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    background-color: rgb(229, 220, 220);
+}
+.footer1{
+    height: 512px;
+    width: 1654px;
+    background-color:#53535354;
+    align-content: center;
+
+    
+
+
+}
+/* .footer-main{
+    height: 223px;
+    width: 1306px;
+    display: flex;
+    justify-content: center;
+    padding: 108px 181px; */
+
+
+
+.footer1{
+    
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 10px;
+    align-items:start;
+    justify-content: center;
+
+} 
+.footer-p{
+ align-items: center;
+ width: 306.05px;
+}
+.footer2{
+    height: 223px;
+    width: 136px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px ;
+    margin-right: 300px;
+    align-content: center;
+    justify-content: center;
+}
+.h-footer{
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #3E3E59#1E1E1E;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.home{
+    font-size: 14px;
+    color: #535353;
+    font-family: 'Inter';
+    align-items: center;
+
+}
+.footer3{
+    height: 223px;
+    width: 199px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding-top: 10px ;
+    margin-right: 300px;
+    align-content: center;
+    justify-content: center;
+
+
+
+}
+
+
+
