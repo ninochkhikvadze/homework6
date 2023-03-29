@@ -37,7 +37,7 @@
 /* end header */
 .cards{
     height: 908px;
-    width: 1336px;
+    width: 1333px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -46,14 +46,15 @@
     justify-content: center;
     align-content: space-between;
     flex-wrap: wrap;
+position: relative;
     
 }
 .container1{
-    height: 430px;
-    width: 1336px;
+    height: 1330px;
+    width: 438px;
     display: flex;
     flex-direction:column;
-    position: ;
+    
     align-items: flex-start;
     padding: 0px;
     background-color: rgb(211, 224, 216);
